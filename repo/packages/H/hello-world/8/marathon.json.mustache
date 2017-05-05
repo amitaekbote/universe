@@ -1,0 +1,13 @@
+{
+    "id": "helloworld",
+    "cpus": ["{{{helloworld.cpus}}}"],
+    "mem": "1024",
+    "instances": "1",
+    "cmd": "while [ true ] ; do echo hello; sleep 5; done",
+    "container": {
+	"type": "MESOS",
+	"docker": {
+	    "image": "library/alpine",
+	}
+    }
+}

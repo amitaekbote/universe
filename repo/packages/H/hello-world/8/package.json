@@ -1,0 +1,12 @@
+{
+    "packagingVersion": "3.0", 
+    "name": "hello_world",
+    "version": "1.0.0",
+    "tags": ["mesosphere", "framework", "amita", "hello"],
+    "maintainer": "aekbote@mesosphere.io",
+    "description": "hello world",
+    "scm": "https://github.com/amitaekbote/dcos-package-hw.git",
+    "website": "https://github.com/amitaekbote/dcos-package-hw.git",
+    "framework": false,
+    "postInstallNotes": "Hello World"
+}
